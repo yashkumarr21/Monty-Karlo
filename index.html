@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monty Karlo — Own The Street. Rule The Game.</title>
+  <meta name="description" content="Monty Karlo — Bold streetwear for Gen Z. Limited drops, no restocks. Own the street, rule the game." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <span class="loader-text">Monty Karlo</span>
+  </div>
+
+  <!-- Floating Background Shapes -->
+  <div class="bg-shapes">
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+    <div class="bg-shape"></div>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo ag-element">Monty Karlo</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#products">Shop</a></li>
+      <li><a href="#new-drop">New Drops</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <button class="cart-btn ag-element" id="cartBtn" aria-label="Cart">
+        🛒 <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="antigravity-btn" id="antigravityBtn">
+        <span>Go Anti-Gravity</span>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+
+    <div class="hero-content fade-in">
+      <h1 class="ag-element">Own The Street.<br />Rule The Game.</h1>
+      <p class="ag-element">Monty Karlo — Built Different.</p>
+      <a href="#products" class="hero-cta ag-element" id="shopNowBtn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED PRODUCTS ========== -->
+  <section class="section" id="products">
+    <h2 class="section-title fade-in ag-element">Featured Drops</h2>
+    <p class="section-subtitle fade-in ag-element">The pieces that define the culture.</p>
+
+    <div class="products-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card fade-in ag-element">
+        <div class="product-image">
+          <img src="images/product-hoodie.png" alt="Shadow Hoodie" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Shadow Hoodie</h3>
+          <p class="product-price">$89.00</p>
+          <button class="add-to-cart-btn" data-product="Shadow Hoodie">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card fade-in ag-element">
+        <div class="product-image">
+          <img src="images/product-tshirt.png" alt="Midnight Tee" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Midnight Tee</h3>
+          <p class="product-price">$45.00</p>
+          <button class="add-to-cart-btn" data-product="Midnight Tee">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card fade-in ag-element">
+        <div class="product-image">
+          <img src="images/product-cargo.png" alt="Street Cargos" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Street Cargos</h3>
+          <p class="product-price">$75.00</p>
+          <button class="add-to-cart-btn" data-product="Street Cargos">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card fade-in ag-element">
+        <div class="product-image">
+          <img src="images/product-jacket.png" alt="Varsity Bomber" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Varsity Bomber</h3>
+          <p class="product-price">$120.00</p>
+          <button class="add-to-cart-btn" data-product="Varsity Bomber">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card fade-in ag-element">
+        <div class="product-image">
+          <img src="images/product-cap.png" alt="Classic Snapback" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Classic Snapback</h3>
+          <p class="product-price">$35.00</p>
+          <button class="add-to-cart-btn" data-product="Classic Snapback">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card fade-in ag-element">
+        <div class="product-image">
+          <img src="images/product-sneakers.png" alt="Halo Highs" loading="lazy" />
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">Halo Highs</h3>
+          <p class="product-price">$150.00</p>
+          <button class="add-to-cart-btn" data-product="Halo Highs">Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== NEW DROP SECTION ========== -->
+  <section class="section new-drop" id="new-drop">
+    <h2 class="drop-tagline fade-in ag-element">Limited Drop. No Restocks.</h2>
+    <p class="drop-sub fade-in ag-element">The next drop lands in…</p>
+
+    <div class="countdown fade-in" id="countdown">
+      <div class="countdown-item ag-element">
+        <div class="countdown-number" id="cd-days">00</div>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="countdown-item ag-element">
+        <div class="countdown-number" id="cd-hours">00</div>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="countdown-item ag-element">
+        <div class="countdown-number" id="cd-minutes">00</div>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="countdown-item ag-element">
+        <div class="countdown-number" id="cd-seconds">00</div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section about" id="about">
+    <h2 class="about-quote fade-in ag-element">Monty Karlo isn't clothing.<br />It's energy.</h2>
+    <p class="about-text fade-in ag-element">
+      Born from the streets, built for the bold. We don't follow trends — we set them.
+      Every piece is a statement. Every drop is an event. No copies, no compromises, no restocks.
+      If you know, you know.
+    </p>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-content">
+
+      <div class="footer-brand">
+        <span class="nav-logo">Monty Karlo</span>
+        <p>Street luxury for the bold generation. No copies. No compromises.</p>
+        <div class="footer-social">
+          <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+          <a href="#" class="social-icon" aria-label="Twitter">🐦</a>
+          <a href="#" class="social-icon" aria-label="TikTok">🎵</a>
+          <a href="#" class="social-icon" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+
+      <div class="footer-signup">
+        <h4>Stay in the loop</h4>
+        <p>Get early access to drops & exclusives.</p>
+        <form class="signup-form" id="signupForm">
+          <input type="email" placeholder="your@email.com" required id="emailInput" />
+          <button type="submit">Join</button>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Monty Karlo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
